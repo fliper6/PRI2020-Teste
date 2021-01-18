@@ -27,7 +27,11 @@
       Conteúdos relacionados ao teste feito no âmbito da unidade curricular <bold>Processamento e Representação de Informação<bold>, no ano letivo 2020/2021.
     </paragraph>
     <paragraph>
-      Relativamente ao <bold>Exercício 1<bold>, foram corrigidos os erros através do "Replace all" ref por "ref" (com o VSCode) e através do script fix_json.js.
+      Relativamente ao <bold>Exercício 1<bold>, foram corrigidos os erros através do "Replace all" ref por "ref" (com o VSCode) e através do script fix_json.js, que adiciona
+      o id a cada um dos casamentos como pedido.
+    </paragraph>
+    <paragraph>
+      Para o import dos dados para o MongoDB, correu-se o seguinte comando: "mongoimport --db PRI2020-Teste --collection casamentos --file casamentos_comid.json --jsonArray"
     </paragraph>
   </abstract>
   <deliverables>
